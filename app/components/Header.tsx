@@ -2,7 +2,9 @@
 import { useTranslation } from 'react-i18next';
 import { useEffect, useState } from 'react';
 
-type Props = { lang: 'ja' | 'en' };
+type Props = {
+  lang?: 'ja' | 'en'; 
+};
 
 export default function Header({ lang }: Props) {
   const { t, i18n } = useTranslation('common');

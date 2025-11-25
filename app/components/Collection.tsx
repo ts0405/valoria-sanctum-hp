@@ -6,7 +6,9 @@ import Roadmap from "./NFTCollection/List";
 import { useTranslation } from 'react-i18next';
 import { useEffect, useState } from 'react';
 
-type Props = { lang: 'ja' | 'en' };
+type Props = {
+  lang?: 'ja' | 'en'; 
+};
 
 export default function BrandHero({ lang }: Props) {
   const { i18n } = useTranslation('common');
