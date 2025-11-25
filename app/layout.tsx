@@ -10,7 +10,12 @@ const cinzel = Cinzel({
   subsets: ['latin'],
   weight: ['400','600','900'],
 });
-
+export const metadata = {
+  title: "Valoria Sanctum",
+  icons: {
+    icon: "/favicon.ico",
+  },
+};
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const { i18n } = useTranslation();
   const [lang, setLang] = useState<'ja' | 'en'>('ja');
