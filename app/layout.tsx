@@ -1,4 +1,3 @@
-'use client';
 import './globals.css';
 import '../i18n'; // i18n 初期化
 import Header from './components/Header';
