@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import FadeIn from '../FadeIn';
 
 type NFTItem = {
   token_id: string;
@@ -28,12 +29,14 @@ export default function List() {
 
   return (
     <section id="nft-list" className="py-20 text-white text-center">
+      <FadeIn delay={150}>
       <h2 className="text-4xl mb-10 font-cinzel text-amber-400">
         NFT Art List
       </h2>
-
+      </FadeIn>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 px-5 max-w-6xl mx-auto">
         {items.slice(0, visibleCount).map((item, index) => (
+          <FadeIn delay={10}>
           <a
             key={item.token_id ?? index}
             href={item.permalink ?? `https://opensea.io/collection/the-valoria-canvases?token=${item.token_id}`}
@@ -56,6 +59,7 @@ export default function List() {
               {item.name || `Token #${item.token_id}`}
             </h3>
           </a>
+          </FadeIn>
         ))}
       </div>
 

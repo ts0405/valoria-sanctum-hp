@@ -1,10 +1,12 @@
 "use client";
 import { useTranslation } from "react-i18next";
+import FadeIn from '../FadeIn';
 
 export default function CurrentStage() {
     const { t } = useTranslation("common");
 
     return (
+        <FadeIn delay={300}>
         <section
             id="metaverse_CurrentStage"
             className="
@@ -51,5 +53,6 @@ export default function CurrentStage() {
                 </p>
             </div>
         </section>
+        </FadeIn>
     );
 }

@@ -1,10 +1,12 @@
 "use client";
 import { useTranslation } from 'react-i18next';
+import FadeIn from '../FadeIn';
 
 export default function About() {
     const { t } = useTranslation('common');
     return (
-        <section id="metaverse_about" className="pb-10 bg-black/90 text-white text-center">
+        <FadeIn delay={150}>
+        <section id="metaverse_about" className="pb-10 text-white text-center">
         <h2 className="text-4xl font-serif text-gold-500 mb-6 relative z-10">
             {t('vctitle')}
         </h2>
@@ -12,5 +14,6 @@ export default function About() {
             {t('vctext')}
         </p>
         </section>
+        </FadeIn>
     );
 }

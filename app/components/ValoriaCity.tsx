@@ -23,7 +23,7 @@ export default function BrandHero({ lang }: Props) {
   }, [lang, i18n]);
   return (
     <>
-    <section className="bg-gray-900">
+    <section className="bg-black">
       <Top/>
       <About/>
       <StepPlan/>

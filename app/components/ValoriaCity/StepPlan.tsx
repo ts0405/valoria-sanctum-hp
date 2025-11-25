@@ -1,5 +1,6 @@
 "use client";
 import { useTranslation } from 'react-i18next';
+import FadeIn from '../FadeIn';
 
 export default function StepPlan() {
     const { t } = useTranslation('common');
@@ -31,13 +32,14 @@ export default function StepPlan() {
             {/* --- 背景の光のエフェクト --- */}
             <div className="absolute inset-0 bg-linear-to-b from-transparent via-black/60 to-black opacity-70 pointer-events-none" />
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-purple-600/20 blur-[180px] rounded-full pointer-events-none" />
-
+            <FadeIn delay={50}>
             <h2 className="text-4xl md:text-5xl font-extrabold mb-12 tracking-widest">
                 {t('StepPlan')}
             </h2>
-
+            </FadeIn>
             <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 px-6">
                 {stages.map((s, i) => (
+                    <FadeIn delay={100}>
                     <div
                         key={i}
                         className="group p-0.5 rounded-2xl bg-linear-to-r from-purple-600/40 to-indigo-500/40 hover:from-purple-400 hover:to-indigo-400 transition"
@@ -54,12 +56,14 @@ export default function StepPlan() {
 
                         </div>
                     </div>
+                    </FadeIn>
                 ))}
             </div>
-
+            <FadeIn delay={200}>
             <p className="mt-14 text-gray-400 text-sm tracking-wide uppercase">
                 {t('teo')}
             </p>
+            </FadeIn>
         </section>
     );
 }
