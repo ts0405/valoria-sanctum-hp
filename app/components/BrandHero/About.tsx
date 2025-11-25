@@ -31,13 +31,13 @@ return ( <section id="about" className="py-20 bg-black text-white text-center re
     <FadeIn delay={150}>
     <a href="https://x.com/SanctumAtelier" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-blue-500 hover:bg-blue-600 text-white font-bold px-4 py-2 rounded-lg transition-colors">
       <img src="/img/icon/x.png" alt="X" className="w-6 h-6 rounded-full" />
-      フォロー
+      {t('follow')}
     </a>
     </FadeIn>
     <FadeIn delay={150}>
     <a href="https://discord.gg/sMc56a88m5" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white font-bold px-4 py-2 rounded-lg transition-colors">
       <img src="/img/icon/d.jpg" alt="Discord" className="w-6 h-6 rounded-full" />
-      今すぐ参加
+      {t('join now')}
     </a>
     </FadeIn>
   </div>
