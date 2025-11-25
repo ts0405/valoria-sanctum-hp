@@ -5,12 +5,13 @@ import Header from './components/Header';
 import { Cinzel } from 'next/font/google';
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { Metadata } from 'next';
 
 const cinzel = Cinzel({
   subsets: ['latin'],
   weight: ['400','600','900'],
 });
-export const metadata = {
+export const metadata: Metadata = {
   title: "Valoria Sanctum",
   icons: {
     icon: "/favicon.ico",
