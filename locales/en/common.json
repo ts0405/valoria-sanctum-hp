@@ -82,6 +82,8 @@
   "Q5" : "Q5: Can I trade or sell my NFTs?",
   "Q5text" : "Yes, all NFTs can be traded on secondary marketplaces. \nEach NFT retains its unique rarity and mystical attributes, enhancing its value.",
   "Q6" : "Q6: Is there a roadmap for the project?",
-  "Q6text" : "Yes! Valoria Sanctum has a roadmap that includes the NFT launch, metaverse beta release, virtual land marketplace, and full public release."
+  "Q6text" : "Yes! Valoria Sanctum has a roadmap that includes the NFT launch, metaverse beta release, virtual land marketplace, and full public release.",
 
+  "follow" : "follow",
+  "join now" : "join now"
 }
