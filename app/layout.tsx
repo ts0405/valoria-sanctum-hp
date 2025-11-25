@@ -1,21 +1,15 @@
+'use client';
 import './globals.css';
 import '../i18n'; // i18n 初期化
 import Header from './components/Header';
 import { Cinzel } from 'next/font/google';
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Metadata } from 'next';
 
 const cinzel = Cinzel({
   subsets: ['latin'],
   weight: ['400','600','900'],
 });
-export const metadata: Metadata = {
-  title: "Valoria Sanctum",
-  icons: {
-    icon: "/favicon.ico",
-  },
-};
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const { i18n } = useTranslation();
   const [lang, setLang] = useState<'ja' | 'en'>('ja');
