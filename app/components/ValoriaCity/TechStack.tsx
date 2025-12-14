@@ -26,7 +26,7 @@ return ( <section id="metaverse_TechStack" className="py-20 bg-black/90 text-whi
     <div>  
       <FadeIn delay={100}><h3 className="text-2xl font-semibold mb-2">{t('3D Interaction')}</h3></FadeIn>
       <FadeIn delay={100}><p className="mb-1">{t('Avatar')}</p></FadeIn>
-      <FadeIn delay={100}><p className="text-gray-400">→ {t('→ S')}</p></FadeIn>  
+      <FadeIn delay={100}><p className="text-gray-400">{t('→ S')}</p></FadeIn>  
     </div>  
 
     {/* 追加予定機能 */}  

@@ -28,7 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
   return (
     <html lang={lang}>
-      <body className={`bg-black text-white ${cinzel.className}`}>
+      <body className={`bg-black text-white whitespace-pre-line ${cinzel.className}`}>
         <Header lang={lang} />
         <main className="pt-8">{children}</main>
         <Footer />

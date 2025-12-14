@@ -54,7 +54,7 @@ export default function Header({ lang }: Props) {
           <Link href="/" className="text-white font-cinzel hover:text-[#ffd700] text-xs sm:text-base fade-in">{t('About')}</Link>
           <Link href="/collection" className="text-white font-cinzel hover:text-[#ffd700] text-xs sm:text-base fade-in">{t('Collection')}</Link>
           <Link href="/ValoriaCity" className="text-white font-cinzel hover:text-[#ffd700] text-xs sm:text-base fade-in">{t('Metaverse')}</Link>
-          <Link href="https://forms.gle/6WMaFECpLpaQfTgm7" target="_blank" className="text-white font-cinzel hover:text-[#ffd700] text-xs sm:text-base fade-in">{t('Contact')}</Link>
+          <Link href={t('ContactUrl')} target="_blank" className="text-white font-cinzel hover:text-[#ffd700] text-xs sm:text-base fade-in">{t('Contact')}</Link>
         </nav>
       </div>
     </header>

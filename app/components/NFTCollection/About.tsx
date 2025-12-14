@@ -74,7 +74,7 @@ export default function About() {
             </a>
             
             <a 
-              href="#about"
+              href="#collection"
               className="inline-block px-6 py-3 rounded-md border border-gray-600 text-gray-200 hover:bg-gray-800 transition"
             >
               {t('Learn More')}

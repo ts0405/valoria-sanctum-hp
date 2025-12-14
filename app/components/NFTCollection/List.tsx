@@ -26,7 +26,7 @@ export default function List() {
   }, []);
 
   const handleLoadMore = () => setVisibleCount((prev) => prev + 6);
-
+  console.log(items)
   return (
     <section id="nft-list" className="py-20 text-white text-center">
       <FadeIn delay={150}>
