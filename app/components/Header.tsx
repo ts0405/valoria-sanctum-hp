@@ -1,6 +1,7 @@
 'use client';
 import { useTranslation } from 'react-i18next';
 import { useEffect, useState } from 'react';
+import Link from "next/link";
 
 type Props = {
   lang?: 'ja' | 'en'; 
@@ -29,7 +30,7 @@ export default function Header({ lang }: Props) {
   }, []);
 
   return (
-    <header
+    <header 
       className={`
         fixed top-0 w-full z-50 flex justify-center transition-all duration-300
         ${scrolled
@@ -50,10 +51,10 @@ export default function Header({ lang }: Props) {
         </h1>
 
         <nav className="flex flex-wrap justify-center sm:justify-end gap-4 mt-2 sm:mt-0">
-          <a href="#about" className="text-white font-cinzel hover:text-[#ffd700] text-xs sm:text-base fade-in">{t('About')}</a>
-          <a href="#collection" className="text-white font-cinzel hover:text-[#ffd700] text-xs sm:text-base fade-in">{t('Collection')}</a>
-          <a href="#metaverse" className="text-white font-cinzel hover:text-[#ffd700] text-xs sm:text-base fade-in">{t('Metaverse')}</a>
-          <a href="https://forms.gle/6WMaFECpLpaQfTgm7" target="_blank" className="text-white font-cinzel hover:text-[#ffd700] text-xs sm:text-base fade-in">{t('Contact')}</a>
+          <Link href="/" className="text-white font-cinzel hover:text-[#ffd700] text-xs sm:text-base fade-in">{t('About')}</Link>
+          <Link href="/collection" className="text-white font-cinzel hover:text-[#ffd700] text-xs sm:text-base fade-in">{t('Collection')}</Link>
+          <Link href="/ValoriaCity" className="text-white font-cinzel hover:text-[#ffd700] text-xs sm:text-base fade-in">{t('Metaverse')}</Link>
+          <Link href="https://forms.gle/6WMaFECpLpaQfTgm7" target="_blank" className="text-white font-cinzel hover:text-[#ffd700] text-xs sm:text-base fade-in">{t('Contact')}</Link>
         </nav>
       </div>
     </header>

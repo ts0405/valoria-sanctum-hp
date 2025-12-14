@@ -5,6 +5,7 @@ import Header from './components/Header';
 import { Cinzel } from 'next/font/google';
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import Footer from './components/Footer';
 
 const cinzel = Cinzel({
   subsets: ['latin'],
@@ -30,6 +31,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={`bg-black text-white ${cinzel.className}`}>
         <Header lang={lang} />
         <main className="pt-8">{children}</main>
+        <Footer />
       </body>
     </html>
   );

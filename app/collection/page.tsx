@@ -1,13 +1,13 @@
 'use client';
 
-import Top from "./NFTCollection/Top";
-import About from "./NFTCollection/About";
-import Roadmap from "./NFTCollection/List";
+import Top from "../components/NFTCollection/Top";
+import About from "../components/NFTCollection/About";
+import Roadmap from "../components/NFTCollection/List";
 import { useTranslation } from 'react-i18next';
 import { useEffect, useState } from 'react';
 
 type Props = {
-  lang?: 'ja' | 'en'; 
+  lang?: 'ja' | 'en';
 };
 
 export default function BrandHero({ lang }: Props) {
@@ -20,11 +20,11 @@ export default function BrandHero({ lang }: Props) {
   }, [lang, i18n]);
   return (
     <>
-    <section className="bg-gray-900">
-      <Top/>
-      <About />
-      <Roadmap />
-    </section>
+      <section className="bg-gray-900">
+        <Top />
+        <About />
+        <Roadmap />
+      </section>
     </>
   );
 }

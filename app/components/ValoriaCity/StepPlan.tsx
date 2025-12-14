@@ -39,7 +39,7 @@ export default function StepPlan() {
             </FadeIn>
             <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 px-6">
                 {stages.map((s, i) => (
-                    <FadeIn delay={100}>
+                    <FadeIn key={i} delay={100}>
                     <div
                         key={i}
                         className="group p-0.5 rounded-2xl bg-linear-to-r from-purple-600/40 to-indigo-500/40 hover:from-purple-400 hover:to-indigo-400 transition"

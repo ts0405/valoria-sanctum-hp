@@ -36,7 +36,7 @@ export default function List() {
       </FadeIn>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 px-5 max-w-6xl mx-auto">
         {items.slice(0, visibleCount).map((item, index) => (
-          <FadeIn delay={10}>
+          <FadeIn key={index} delay={10}>
           <a
             key={item.token_id ?? index}
             href={item.permalink ?? `https://opensea.io/collection/the-valoria-canvases?token=${item.token_id}`}

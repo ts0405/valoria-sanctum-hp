@@ -13,7 +13,7 @@ export default function Roadmap() {
     </FadeIn>
     <ul className="max-w-3xl mx-auto space-y-6">
       {roadmap.map((item, index) => (  
-      <FadeIn delay={300}>
+      <FadeIn key={index} delay={300}>
       <li key={index} className="bg-gray-800 p-4 rounded-lg">
         <div className="mb-2">
           <span className="font-bold text-gold-400 mr-2 ">{item.phase}</span>

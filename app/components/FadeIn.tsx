@@ -14,7 +14,7 @@ export default function FadeIn({ children, delay = 0 }: any) {
       ([entry]) => {
         if (entry.isIntersecting) {
           setShow(true);
-          obs.disconnect(); //　← 一度アニメ発火したら監視を終了
+          obs.disconnect();
         }
       },
       { threshold: 0.25 }
