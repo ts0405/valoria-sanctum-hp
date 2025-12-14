@@ -20,7 +20,7 @@ const CTA_ITEMS = [
       'border-white/20 from-white/10 hover:shadow-[0_0_20px_rgba(255,255,255,0.25)]',
   },
   {
-    href: 'https://opensea.io/',
+    href: 'https://opensea.io/collection/the-valoria-canvases',
     titleKey: 'ctaOpensea',
     subtitle: 'EM',
     style: 'border-dashed border-white/30 hover:bg-white/5',
