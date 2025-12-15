@@ -11,7 +11,7 @@
   "subtitle" : "新しいNFTプロジェクトへの門",
   "AboutTitle" : "Valoria Sanctumについて",
   "AboutText" : "Valoria Sanctumは、古典芸術の荘厳さと神秘的でハイエンドな美学を融合させたNFTアートプロジェクトです。あなたの保有しているNFTアートは、Valoria Sanctumが創造した仮想都市<l>「Valoria City」</l>の中で息づき、アートを保有していることを展示し、主張し、その存在価値はただ「飾る」ものではなく「崇拝される象徴」として昇華します。\n聖なる創造工房から生み出された、神秘と威厳に満ちたアートを今、手に入れよう。",
-  "ctaCanvases" : "Valoria Canvases について",
+  "ctaCanvases" : "The Valoria Canvases について",
   "ctaCityAbout" : "Valoria City について",
   "ctaOpensea" : "OpenSeaで確認",
   "NAC" : "NFT アート コレクション",
@@ -25,7 +25,7 @@
     { "phase": "フェーズ4:","state": "予定", "text": "完全公開", "text2": "Valoria City を全ユーザーに開放し、全機能を利用可能に。デジタルアートが現実の絵画として購入可能に。"},
     { "phase": "フェーズ5:","state": "予定", "text": "早期参加者への大きなリターン", "text2": "Valoria Sanctum の発展と人々の需要に伴い、早期参加者は優遇された特典やリワードを手に入れます。" }
   ],
-  "BrandDescription": "Valoria SanctumのNFTコレクション<l>(Valoria Canvases)</l>は、あなたがそのアートを保有することでメタバース<lc>(ValoriaCity)</lc>でのアートの展示、「現実の絵画」として手にすることができる証を得ることができます。",
+  "BrandDescription": "Valoria SanctumのNFTコレクション<l>(The Valoria Canvases)</l>は、あなたがそのアートを保有することでメタバース<lc>(ValoriaCity)</lc>でのアートの展示、「現実の絵画」として手にすることができる証を得ることができます。",
 
   "Royalty": "ロイヤリティ",
   "TVCAboutTitle" : "The Valoria Canvasesについて",
@@ -42,7 +42,7 @@
   "Show more" : "更に表示",
   "vcsubtitle" : "あなたのNFTが生きる、崇高な仮想都市。",
   "vctitle" : "コンセプト紹介",
-  "vctext" : "ValoriaCityは、NFTコレクション「Valoria Canvases」の世界に息づく仮想都市です。所有する土地に自由に建物を建て、NFTアートを展示することができ、ただ飾るだけでなく「崇拝される象徴」として価値を高めます。",
+  "vctext" : "ValoriaCityは、NFTコレクション「The Valoria Canvases」の世界に息づく仮想都市です。所有する土地に自由に建物を建て、NFTアートを展示することができ、ただ飾るだけでなく「崇拝される象徴」として価値を高めます。",
   "StepPlan" : "ステッププラン",
   "Phase1" : "フェーズ I – 資金の礎",
   "Phase1text" : "Valoria City の核心構造を築くために必要な “聖なる資金” を調達します。\nこの段階で参加した者は、第一期創設者（First Founders）として称えられます。",
