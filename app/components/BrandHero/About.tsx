@@ -57,12 +57,12 @@ export default function About() {
       />
     </FadeIn>
     <FadeIn delay={30}>
+      <img src="/img/xxx.png" alt="xxx" className="w-250 mx-auto z-20" />
       <section className="relative mt-20 mb-20">
         {/* 背景の光 */}
         <div className="absolute inset-0 -z-10 flex justify-center">
           <div className="h-80 w-80 rounded-full bg-violet-500/10 blur-3xl" />
         </div>
-
         <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-3">
           {CTA_ITEMS.map((item) => {
             const Card = (
