@@ -57,7 +57,7 @@ export default function About() {
       />
     </FadeIn>
     <FadeIn delay={30}>
-      <img src="/img/xxx.png" alt="xxx" className="w-250 mx-auto z-20" />
+      <img src="/img/xxx.png" alt="xxx" className="w-250 mx-auto z-20 px-5" />
       <section className="relative mt-20 mb-20">
         {/* 背景の光 */}
         <div className="absolute inset-0 -z-10 flex justify-center">
